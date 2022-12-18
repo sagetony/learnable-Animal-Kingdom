@@ -56,11 +56,11 @@ class Antropoda extends AnimalKingdom {
 
   // @dev Polymorphism Principle
 
-  displaycoldBlooded(name) {
-    return `${name} is Cold Blooded`;
+  displaycoldBlooded() {
+    return `${this.name} is Cold Blooded`;
   }
   displaywithoutbackbone(name) {
-    return `${name} is without a backbone`;
+    return `${this.name} is without a backbone`;
   }
 }
 class Fish extends AnimalKingdom {
@@ -71,11 +71,11 @@ class Fish extends AnimalKingdom {
 
   // @dev Polymorphism Principle
 
-  displaycoldBlooded(name) {
-    return `${name} is Cold Blooded`;
+  displaycoldBlooded() {
+    return `${this.name} is Cold Blooded`;
   }
-  displaywithoutbackbone(name) {
-    return `${name} is with a backbone`;
+  displaywithbackbone(name) {
+    return `${this.name} is with a backbone`;
   }
 }
 class Amphibia extends AnimalKingdom {
@@ -86,11 +86,11 @@ class Amphibia extends AnimalKingdom {
 
   // @dev Polymorphism Principle
 
-  displaycoldBlooded(name) {
-    return `${name} is Cold Blooded`;
+  displaycoldBlooded() {
+    return `${this.name} is Cold Blooded`;
   }
-  displaywithbackbone(name) {
-    return `${name} is with a backbone`;
+  displaywithoutbackbone() {
+    return `${this.name} is without a backbone`;
   }
 }
 class Reptiles extends AnimalKingdom {
@@ -101,11 +101,11 @@ class Reptiles extends AnimalKingdom {
 
   // @dev Polymorphism Principle
 
-  displaycoldBlooded(name) {
-    return `${name} is Cold Blooded`;
+  displaycoldBlooded() {
+    return `${this.name} is Cold Blooded`;
   }
-  displaywithbackbone(name) {
-    return `${name} has with a backbone`;
+  displaywithbackbone() {
+    return `${this.name} has with a backbone`;
   }
 }
 class AVES extends AnimalKingdom {
@@ -116,11 +116,11 @@ class AVES extends AnimalKingdom {
 
   // @dev Polymorphism Principle
 
-  displaywarmBlooded(name) {
-    return `${name} is Warm Blooded`;
+  displaywarmBlooded() {
+    return `${this.name} is Warm Blooded`;
   }
-  displaywithbackbone(name) {
-    return `${name} has with a backbone`;
+  displaywithbackbone() {
+    return `${this.name} has with a backbone`;
   }
 }
 class Mammals extends AnimalKingdom {
@@ -131,18 +131,12 @@ class Mammals extends AnimalKingdom {
 
   // @dev Polymorphism Principle
 
-  displaywarmBlooded(name) {
-    return `${name} is Warm Blooded Animal`;
+  displaywarmBlooded() {
+    return `${this.name} is Warm Blooded Animal`;
   }
-  displaywithbackbone(name) {
-    return `${name} has a backbone`;
+  displaywithbackbone() {
+    return `${this.name} has a backbone`;
   }
 }
-const antropoda = new Antropoda();
-const fish = new Fish();
-const amphibia = new Amphibia();
-const reptiles = new Reptiles();
-const aves = new AVES();
-const mammals = new Mammals();
 
-console.log(antropoda.displaywithoutbackbone("fish"));
+console.log("Animal Kingdom");
