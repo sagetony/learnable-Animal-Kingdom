@@ -19,7 +19,7 @@
 
 # How It Works
 
-- ### Initialize a class with the name of the animal in that classification. *Note: Base Class: AnimalKingdom. SubClass:  Antropoda, Fish, Amphibia, Reptiles, AVES and Mammals.* Example1: const reptiles = new Reptiles("Snake");
+- ### Instantiate a class with the name of the animal in that classification. *Note: Base Class: AnimalKingdom. SubClass:  Antropoda, Fish, Amphibia, Reptiles, AVES and Mammals.* Example1: const reptiles = new Reptiles("Snake");
 - ### Call the methods in the subclass (Example2: reptiles.displaycoldBlooded().
 )
 
